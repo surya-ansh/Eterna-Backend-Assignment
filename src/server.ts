@@ -10,11 +10,11 @@ async function buildServer() {
 
   
   redisQueueConn.on("connect", () => {
-    console.log("🔗 Redis Cloud Connected");
+    console.log("Redis Cloud Connected");
   });
 
   redisQueueConn.on("error", (err) => {
-    console.error("❌ Redis Connection Error:", err);
+    console.error("Redis Connection Error:", err);
   });
 
   
@@ -40,9 +40,9 @@ async function start() {
       host: "0.0.0.0",
     });
 
-    console.log("🚀 Server running on http:
+    console.log("Server running on http:
   } catch (err) {
-    console.error("❌ Server failed to start:", err);
+    console.error("Server failed to start:", err);
     process.exit(1);
   }
 }
