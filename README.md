@@ -151,6 +151,8 @@ CREATE TABLE order_events (
 
 # 🔐 Environment File (.env)
 
+The environment variables are provided in the description of the explanation video.
+
 ```
 REDIS_HOST=redis-XXXXX.redislabs.com
 REDIS_PORT=XXXX
@@ -281,4 +283,5 @@ This implementation satisfies:
 ✔ PostgreSQL storage  
 ✔ Redis queue + pub/sub  
 ✔ Clean architecture  
+
 
